@@ -8,13 +8,15 @@ shoot: {
 shots: 5
 type: ShootBarrel
 barrels: [
-	-10, 0, 0,
-	-3.76, 0, 0,
-	3.76, 0, 0,
-	10, 0, 0,
+	-9, 0, 0,
+	-3, 0, 0,
+	3, 0, 0,
+	9, 0, 0,
 ]
 shotDelay: 4
+shootY: -5
 }
+shootY: -5
 shootDelay: 5
 shootShake: 2.5
 recoilAmount: 3.5
