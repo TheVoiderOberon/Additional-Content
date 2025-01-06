@@ -8,10 +8,10 @@ shoot: {
 shots: 5
 type: ShootBarrel
 barrels: [
-	-9, 0, 0,
-	-3, 0, 0,
-	3, 0, 0,
-	9, 0, 0,
+	-7, 0, 0,
+	-1.75, 0, 0,
+	1.75, 0, 0,
+	7, 0, 0,
 ]
 shotDelay: 4
 shootY: -5

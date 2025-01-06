@@ -18,7 +18,9 @@ weapons:[
 name: electric-destroyer
 reload: 20
 shootSound: spark
-shots: 5
+shoot: {
+shots: 7
+}
 recoil: 4
 cooldownTime: 40
 heatColor: a3a3ff
