@@ -5,7 +5,14 @@ reload: 90
 size: 1
 shoot: {
 shots: 4
-shootSpacing: 4
+type: ShootBarrel
+barrels: {
+	-1.5, 0, 0
+	-0.75, 0, 0
+	0.75, 0, 0
+	1.5, 0, 0
+}
+shootDelay: 2
 }
 range: 140
 alternate: false

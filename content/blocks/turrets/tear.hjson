@@ -7,7 +7,7 @@ health: 2240
 shoot: {
 shots: 4
 type: ShootSpread
-shootCone: 50
+shootCone: 70
 }
 range: 115
 alternate: false
