@@ -6,8 +6,9 @@ size: 2
 reload: 30
 shoot: {
 shots: 128
-burstSpacing: 0.5
-spread: 5
+type: ShootSpread
+shootCone: 360
+shotDelay: 0.5
 }
 shootShake: 3
 recoilAmount: 1

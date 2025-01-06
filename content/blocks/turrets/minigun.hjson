@@ -1,17 +1,21 @@
 type: ItemTurret
-name: minigun
+name: Minigun
 description: An extremely fast turret that can easily destroy things in front of it.
 health: 1960
 size: 3
-reload: 5.5
+reload: 2.5
 recoilAmount: 2
 shootSound: shootBig
 range: 140
 shoot: {
 shots: 2
-burstSpacing: 1
+type: ShootBarrel
+barrels: [
+	-2.5, 0, 0,
+	2.5, 0, 0,
+]
+shotDelay: 2.5
 }
-alternate: true
 spread: 10
 ammoUseEffect: casing2
 targetAir: true

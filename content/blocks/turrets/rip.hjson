@@ -6,7 +6,8 @@ size: 1
 health: 320
 shoot: {
 shots: 2
-spread: 5
+type: ShootSpread
+shootCone: 50
 }
 range: 75
 alternate: false
