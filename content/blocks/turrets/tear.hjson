@@ -6,7 +6,7 @@ size: 4
 health: 2240
 shoot: {
 shots: 4
-spread: 11.25
+shootSpread: 11.25
 }
 range: 115
 alternate: false
