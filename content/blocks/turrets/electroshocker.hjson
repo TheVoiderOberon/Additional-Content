@@ -4,7 +4,9 @@ description: Shoots an array of lightning that later converts into a volley of b
 health: 2000
 size: 1
 reload: 60
+shoot: {
 shots: 20
+}
 shootShake: 4
 recoilAmount: 2.5
 cooldown: 0.01
@@ -28,7 +30,9 @@ shootEffect: {
       smokeRad: 20
       smokeSizeBase: 1.5
 } 
-powerUse: 45
+consumes: {
+    power: 45
+}
 heatColor: ff000b
 shootSound: spark
 range: 250

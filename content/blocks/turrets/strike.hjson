@@ -26,7 +26,9 @@ shootEffect: {
       smokeRad: 20
       smokeSizeBase: 1.5
 } 
-consumePower: 12
+consumes: {
+    power: 12
+}
 heatRequirement: 15
 heatColor: ff000b
 shootSound: spark

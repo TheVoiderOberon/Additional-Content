@@ -4,7 +4,10 @@ description: "Fires 4 close-range piercing blasts at nearby enemies."
 reload: 32
 size: 4
 health: 2240
-shoot.shots: 4
+shoot: {
+shots: 4
+spread: 11.25
+}
 range: 115
 alternate: false
 spread: 11.25

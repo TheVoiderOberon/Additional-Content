@@ -5,7 +5,9 @@ health: 1700
 size: 1
 reload: 20
 spacing: 3
+shoot: {
 shots: 2
+}
 alternate: true
 recoilAmount: 1.8
 shootSound: shootBig

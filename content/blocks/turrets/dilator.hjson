@@ -27,7 +27,9 @@ shootEffect: {
       smokeRad: 200
       smokeSizeBase: 6
 } 
-powerUse: 120
+consumes: {
+    power: 120
+}
 shootSound: laserbig
 chargeSound: artillery
 range: 500

@@ -4,9 +4,11 @@ description: Shoots a spiral of bullets that attract enemies back.
 health: 5000
 size: 2
 reload: 30
-shoot.shots: 128
+shoot: {
+shots: 128
 burstSpacing: 0.5
 spread: 5
+}
 shootShake: 3
 recoilAmount: 1
 rotateSpeed: 6
@@ -30,7 +32,9 @@ shootEffect: {
       smokeRad: 15
       smokeSizeBase: 1
 } 
-powerUse: 10
+consumes: {
+    power: 10
+}
 heatColor: ff000b
 shootSound: laser
 range: 300

@@ -4,7 +4,11 @@ description: Shoots large amounts of lightning at any nearby enemy.
 health: 2400
 size: 4
 reload: 14
-shoot.shots: 5
+shoot: {
+shots: 5
+shootDelay: 5
+spacing: 2
+}
 shootDelay: 5
 shootShake: 2.5
 recoilAmount: 3.5
@@ -13,7 +17,9 @@ alternate: true
 spacing: 2
 rotateSpeed: 5.2
 shootEffect: lightningShoot
-powerUse: 15
+consumes: {
+    power: 15
+}
 heatColor: ff000b
 shootSound: spark
 range: 160

@@ -27,7 +27,9 @@ shootEffect: {
       smokeRad: 140
       smokeSizeBase: 5
 } 
-powerUse: 100
+consumes: {
+    power: 100
+}
 shootSound: beam
 range: 450
 shootType: {

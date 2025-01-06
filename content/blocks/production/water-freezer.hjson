@@ -6,7 +6,7 @@ hasPower: true
 craftTime: 40
 hasLiquids: true
 consumes: {
-  power: 2.4
+  power: 3.5
     liquid: {
     liquid: cryofluid
     amount: 0.15
@@ -22,4 +22,4 @@ requirements: [
 ]
 category: crafting
 research: water-cooler
-outputLiquid: water/50
+outputLiquid: water/7

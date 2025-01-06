@@ -10,7 +10,9 @@ recoilAmount: 3
 restitution: 0.05
 chargeTime: 0
 hasPower: true
-powerUse: 7.5
+consumes: {
+    power: 7.5
+}
 shots: 1
 rotateSpeed: 5.5
 ammoTypes: {

@@ -3,7 +3,10 @@ name: "Dersu"
 description: "Fires bursts of bullets at enemies."
 reload: 90
 size: 1
+shoot: {
 shots: 4
+shootSpacing: 4
+}
 range: 140
 alternate: false
 burstSpacing: 4

@@ -27,7 +27,9 @@ shootEffect: {
       smokeRad: 50
       smokeSizeBase: 3
 } 
-powerUse: 80
+consumes: {
+    power: 80
+}
 shootSound: laser
 range: 350
 shootType: {
