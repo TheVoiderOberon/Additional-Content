@@ -2,6 +2,7 @@ type: PowerTurret
 name: Storm
 description: Shoots large amounts of lightning at any nearby enemy.
 health: 2400
+targetsAir: false
 size: 4
 reload: 14
 shoot: {

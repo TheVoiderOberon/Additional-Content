@@ -4,6 +4,7 @@ description: Shoots pairs of lightning at any nearby enemy.
 health: 800
 size: 2
 reload: 42
+targetsAir: false
 shoot: {
 shots: 2
 }

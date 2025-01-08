@@ -3,6 +3,7 @@ name: Lightning
 description: Shoots lightning at any nearby enemy.
 health: 1600
 size: 3
+targetsAir: false
 reload: 17
 shoot: {
 shots: 3
