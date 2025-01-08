@@ -76,7 +76,12 @@ xRand: 6
 shadow: 22
 rotate: true
 rotateSpeed: 3.8
+shoot: {
 shots: 3
+type: ShootAlternate
+spacing: 4
+shotDelay: 2.2
+}
 spacing: 4
 inaccuracy: 3
 shotDelay: 2.2
@@ -110,7 +115,10 @@ y: -8
 recoil: 2
 reload: 19
 shadow: 18
+shoot: {
 shots: 2
+shotDelay: 3
+}
 xRand: 4
 shotDelay: 3
 inaccuracy: 4

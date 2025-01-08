@@ -17,7 +17,9 @@ weapons:[
 name: electric-weapon
 reload: 38
 shootSound: spark
+shoot: {
 shots: 2
+}
 recoil: 2
 cooldownTime: 76
 heatColor: a3a3ff

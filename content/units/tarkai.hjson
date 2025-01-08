@@ -37,7 +37,12 @@ weapons:[
   shootSound: lasershoot
   recoil: 2
   reload: 30
-  shots: 3
+  shoot: {
+    shots: 3
+    type: ShootSpread
+    shootCone: 30
+    shotDelay: 7.5
+  }
   inaccuracy: 5
   spread: 15
   shotDelay: 7.5
@@ -159,7 +164,12 @@ shootY: 2
 shootSound: missiles
 rotate: true
 rotateSpeed: 6
-shots: 2
+  shoot: {
+    shots: 2
+    type: ShootSpread
+    shootCone: 30
+    shotDelay: 7.5
+  }
 inaccuracy: 8
 bullet: {
 type: MissileBulletType

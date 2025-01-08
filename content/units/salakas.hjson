@@ -26,7 +26,10 @@ shake: 2
 reload: 60
 shootSound: missile
 shootY: 8
+shoot: {
 shots: 5
+shotDelay: 5
+}
 shotDelay: 3
 mirror: false
 recoil: 3
