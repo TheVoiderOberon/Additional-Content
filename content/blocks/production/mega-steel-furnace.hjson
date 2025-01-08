@@ -4,10 +4,14 @@ description: "Smelts even more steel at once."
 size: 4
 hasPower: true
 hasItems: true
-craftTime: 240
+craftTime: 90
 craftEffect: smeltsmoke
 consumes: {
-  power: 0.7
+  power: 2
+  liquid: {
+  liquid: water
+  amount: 0.6
+  }
   items: {
     items: [
       coal/7
